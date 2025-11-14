@@ -23,7 +23,7 @@ h1 {
 }
 
 .header p {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     font-size: 2rem;
 }
 
@@ -43,7 +43,8 @@ main {
 .seccion {
      margin: auto;
      padding: 150px 100px;
-     height: 350px;
+     padding-bottom: 50px;
+     /* height: 350px; */
      width: 90%;
      box-shadow: 1px 1px 10px #555;
      text-align: center;
@@ -53,7 +54,7 @@ main {
     color: #a1a1a1;
     font-size: 1.5rem;
     padding: 20px 0;
-    border: solid thin red;
+    /* border: solid thin red; */
 }
 
 .icons i {
@@ -62,5 +63,80 @@ main {
 
 .seccion article {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.btns button {
+    padding: 10px 20px;
+    background-color: #09bfcc;
+    border: none;
+    color: #fff;
+    margin: 0 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px #555;
+}
+
+.experience h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #575656
+}
+
+.container-experience {
+    border: solid thin green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px;
+    /* gap: 10px; */
+}
+
+.elements {
+    /* border: solid thin red; */
+    box-shadow: 1px 1px 7px #555;
+    /* margin-bottom: 40px; */
+}
+
+.elements h3 { 
+    font-weight: 100;
+    padding: 20px;
+    background-color: #424242;
+    color: #fff; 
+}
+
+.extra-information {
+    padding: 20px;
+}
+
+.title,
+.date {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.separador-uno {
+    padding: 0 50px;
+    border-right: 2px #09bfcc solid;
+}
+
+.separador-uno .elements {
+    margin-bottom: 30px;
+}
+
+.separador-dos {
+    padding: 0 50px;
+    /* border: solid thin red; */
+}
+
+.separador-dos .elements:first-child {
+    border: solid thin red;
+    transform: translateY(50px);
+}
+
+.separador-dos .elements:nth-child(2) {
+    border: solid thin red;
+    transform: translateY(50px);
+}
+
+.separador-dos .elements {
     margin-bottom: 30px;
 }
